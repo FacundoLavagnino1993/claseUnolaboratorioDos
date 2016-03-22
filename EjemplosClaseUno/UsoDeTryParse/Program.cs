@@ -11,6 +11,7 @@ namespace UsoDeTryParse
         {
             Console.Title = "Uso de try parse";
             string dato;
+            string nom;
             Console.WriteLine("Ingrese su edad: ");
             dato = Console.ReadLine();
             int numero;
@@ -20,6 +21,10 @@ namespace UsoDeTryParse
                 Console.WriteLine("Error intente reingresando un numero");
                 dato = Console.ReadLine();
             }
+            Console.WriteLine("Ingrese nombre: ");
+            nom = Console.ReadLine();
+            Console.WriteLine("Su nombre es: " + nom + "\nY su edad es: " + numero);
+            Console.ReadLine();
         }
     }
 }
